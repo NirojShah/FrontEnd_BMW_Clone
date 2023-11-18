@@ -1,0 +1,190 @@
+
+#footpage{
+    width: 100%;
+}
+
+
+.footer{
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(233, 233, 233, 0.418);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.boxfooter1{
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    align-items: center;
+    border-bottom: 1px solid rgb(173, 170, 170);
+}
+
+.social{
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.socialmedia{
+    width: 20vw;
+    font-size: 25px;
+}
+.sm{
+    width: 20vw;
+    letter-spacing: 3px;
+    color: rgb(122, 121, 121);
+}
+
+.icons{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 20vw;
+    height: 10vh;
+    gap: 40px;
+}
+
+.boxfooter2{
+    width: 90%;
+    height: 40vh;
+}
+
+
+
+/* table */
+
+.boxfooter2 table{
+    width: 80%;
+    height: 35vh;
+}
+
+tr{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+td{
+    width: 20vw;
+    height: 10vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.th{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(88, 88, 88);
+}
+
+.tdata{
+    font-size: 15px;
+    font-weight:bolder;
+    color: rgb(94, 92, 92);
+}
+
+.trdata{
+    height: 30px;
+
+}
+
+.end{
+    width: 100%;
+    height: 5vh;
+    background-color: white;
+}
+
+.tdata:hover{
+    color: rgb(43, 42, 42);
+}
+
+.last{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.lone{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.ltwo1{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    flex-direction: row;
+}
+
+.ltwo1 li{
+    width: 120px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.li1 a:hover{
+    color: rgb(48, 48, 255);
+}
+.ltwo1 .li1{
+    width: 190px;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+.lin{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+.linkf:link{
+    color: rgb(100, 91, 91);
+}
+.linkf:visited{
+    color: rgb(100, 91, 91);
+}
+
+.linkf:active{
+    color: white;
+
+}
+
+.linkf:hover{
+    color: black;
+}
+
+.ltwo .ltwo1 a:hover{
+    color: rgb(110, 110, 241);
+}
+
+.butlin{
+    color: black;
+}
+.butlin:visited{
+    color: black;
+}
+
+#forward:link{
+    color: white;
+}
+#forward:visited{
+    color: white;
+}

@@ -1,0 +1,241 @@
+
+@import url("./style2.css");
+@import url("./style3.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.onepage{
+    width: 100%;
+    height: 100vh;
+}
+.media{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#video{
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    z-index: -10;
+}
+
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 1px;
+
+}
+
+.nav{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.048),rgba(0, 0, 0, 0));
+
+}
+
+.box{
+    width: 95%;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    position: relative;
+    left: 2px;
+}
+
+.right{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.righto{
+    height: 80px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 5px solid rgba(107, 107, 241, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.big{
+    width: 200px;
+}
+
+.righto1{
+    width: 100px;
+}
+
+
+#logobmw{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 0px;
+}
+
+.righto p{
+    text-shadow: 0px 0 0px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.left{
+    width: 20%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.lefto{
+    width: 70px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid rgba(107, 107, 241, 0);
+    cursor: pointer;
+}
+
+.logo{
+    width: 80px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 50px;
+}
+
+
+.righto:hover{
+    border-bottom: 5px solid rgb(85, 85, 250);
+    cursor: pointer;
+}
+.lefto:hover{
+    border-bottom: 5px solid rgb(85, 85, 250);
+    cursor: pointer;
+}
+
+.contentnext{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+.sheer{
+    display: flex;
+    font-size: 18px;
+    color: white;
+}
+
+#plea{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+.content{
+    width: 85%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: end;
+}
+
+.combine1{
+    height: 45%;
+}
+
+.thenew{
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    height: 50px;
+
+}
+
+.bmwxm{
+    font-size: 150px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.combine2{
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.firstever{
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+
+.buttonsck{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#conf{
+    width: 173px;
+    height: 55px;
+    border: none;
+    color: white;
+    background-color: rgb(55, 55, 245);
+    font-size: 18px;
+    border-radius: 3px;
+
+}
+
+#conf:hover{
+    background-color: rgb(39, 39, 197);
+    cursor: pointer;
+}
+#knm{
+    width: 173px;
+    height: 55px;
+    border: 1px solid white;
+    color: white;
+    background-color: rgba(99, 99, 240, 0);
+    font-size: 18px;
+    border-radius: 3px;
+
+}
+
+#knm:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
